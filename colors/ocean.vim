@@ -40,9 +40,9 @@ hi! Directory ctermfg=37 guifg=#00afaf
 hi! Error ctermbg=234 ctermfg=273 guibg=#161821 guifg=#e27878
 hi! ErrorMsg ctermbg=234 ctermfg=273 guibg=#161821 guifg=#e27878
 hi! WarningMsg ctermbg=234 ctermfg=273 guibg=#161821 guifg=#e27878
-hi! EndOfBuffer ctermbg=NONE ctermfg=236 guibg=NONE guifg=#37940
-hi! NonText ctermbg=234 ctermfg=236 guibg=#161821 guifg=#37940
-hi! SpecialKey ctermbg=234 ctermfg=236 guibg=#161821 guifg=#37940
+hi! EndOfBuffer ctermbg=NONE ctermfg=236 guibg=NONE guifg=#303030
+hi! NonText ctermbg=234 ctermfg=236 guibg=#161821 guifg=#303030
+hi! SpecialKey ctermbg=234 ctermfg=236 guibg=#161821 guifg=#303030
 hi! Folded ctermbg=235 ctermfg=245 guibg=#1e2132 guifg=#686f9a
 hi! FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#374b71
 hi! Function ctermfg=33 guifg=#0087ff
