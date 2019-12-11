@@ -2,15 +2,15 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 function! s:build_palette() abort
-  let col_base     = ['#808080', '#121212', 244, 233]
-  let col_edge     = ['#17171b', '#8a8a8a', 234, 245]
+  let col_base     = ['#d0d0d0', '#121212', 252, 233]
+  let col_edge     = ['#17171b', '#d0d0d0', 234, 252]
   let col_error    = ['#161821', '#ff5f00', 234, 202]
-  let col_gradient = ['#9e9e9e', '#303030', 247, 236]
-  let col_nc       = ['#808080', '#121212', 244, 233]
+  let col_gradient = ['#d0d0d0', '#303030', 252, 236]
+  let col_nc       = ['#d0d0d0', '#121212', 252, 233]
   let col_warning  = ['#1c1c1c', '#ffaf00', 234, 214]
-  let col_insert   = ['#1c1c1c', '#00ffaf', 234, 49]
+  let col_insert   = ['#eeeeee', '#00ffaf', 234, 255]
   let col_replace  = ['#1c1c1c', '#ffaf00', 234, 214]
-  let col_visual   = ['#1c1c1c', '#00d7ff', 234, 45]
+  let col_visual   = ['#1c1c1c', '#afd7ff', 234, 153]
   let col_red      = ['#ff5f00', '#1c1c1c', 202, 234]
 
   let p = {}
