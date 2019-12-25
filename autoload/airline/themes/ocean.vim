@@ -35,6 +35,23 @@ function! s:build_palette() abort
         \ col_gradient,
         \ col_base)
 
+	" Modified buffer
+  let p.inactive_modified = {
+      \ 'airline_c': ['#1c1c1c', '#00afaf', 234, 37, ''],
+      \ }
+  let p.visual_modified = {
+      \ 'airline_c': ['#1c1c1c', '#00afaf', 234, 37, ''],
+      \ }
+  let p.replace_modified = {
+      \ 'airline_c': ['#1c1c1c', '#00afaf', 234, 37, ''],
+      \ }
+  let p.normal_modified = {
+      \ 'airline_c': ['#1c1c1c', '#00afaf', 234, 37, ''],
+      \ }
+  let p.insert_modified = {
+      \ 'airline_c': ['#1c1c1c', '#00afaf', 234, 37, ''],
+      \ }
+
   " Accents
   let p.accents = {
         \   'red': col_red,
